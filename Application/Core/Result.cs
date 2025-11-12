@@ -1,4 +1,5 @@
 using System;
+using Domain;
 
 namespace Application.Core;
 
@@ -16,4 +17,9 @@ public class Result<T>
         Error = error,
         Code = code
     };
+
+    internal static Result<Photo> Failure(string v)
+    {
+        throw new NotImplementedException();
+    }
 }
