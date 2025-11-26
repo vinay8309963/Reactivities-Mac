@@ -2,8 +2,8 @@ import { Box, Paper, Tab, Tabs } from "@mui/material";
 import { SyntheticEvent, useState } from "react"
 import ProfilePhotos from "./ProfilePhotos";
 import ProfileAbout from "./ProfileAbout";
-import ProfileFollowings from "./profileFollowings";
 import ProfileActivities from "./ProfileActivities";
+import ProfileFollowings from "./ProfileFollowings";
 
 export default function ProfileContent() {
   const [value, setValue] = useState(0);
